@@ -13,6 +13,6 @@ use Illuminate\Http\Request;
 |
 */
 
-Route::get('/payment-method-bsc', function (Request $request) {
+Route::get('/payment-method-pix', function (Request $request) {
     // return $request->payment-method-btc();
 })->middleware('auth:api');

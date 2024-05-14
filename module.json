@@ -1,6 +1,6 @@
 {
-    "name": "Bsc",
-    "slug": "payment-method-bsc",
+    "name": "Pix",
+    "slug": "payment-method-pix",
     "version": "1.0",
-    "description": "This is the description for the PaymentMethodBsc module."
+    "description": "This is the description for the Pix module."
 }

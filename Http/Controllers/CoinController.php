@@ -1,6 +1,6 @@
 <?php
 
-namespace Modules\PaymentMethodBsc\Http\Controllers;
+namespace Modules\PaymentMethodPix\Http\Controllers;
 
 use App\Engine\TatumEngine;
 use App\Engine\TatumEngineV4;

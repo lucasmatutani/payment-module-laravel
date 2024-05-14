@@ -1,6 +1,6 @@
 <?php
 
-namespace Modules\PaymentMethodBsc\Providers;
+namespace Modules\PaymentMethodPix\Providers;
 
 use Illuminate\Foundation\Support\Providers\RouteServiceProvider as ServiceProvider;
 use Illuminate\Support\Facades\Route;
@@ -55,7 +55,7 @@ class RouteServiceProvider extends ServiceProvider
             'middleware' => 'web',
             'namespace'  => $this->namespace,
         ], function ($router) {
-            require module_path('payment-method-bsc', 'Routes/web.php');
+            require module_path('payment-method-pix', 'Routes/web.php');
         });
     }
 
@@ -73,7 +73,7 @@ class RouteServiceProvider extends ServiceProvider
             'namespace'  => $this->namespace,
             'prefix'     => 'api',
         ], function ($router) {
-            require module_path('payment-method-bsc', 'Routes/api.php');
+            require module_path('payment-method-pix', 'Routes/api.php');
         });
     }
 }
