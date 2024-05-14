@@ -1,0 +1,6 @@
+{
+    "name": "Bsc",
+    "slug": "payment-method-bsc",
+    "version": "1.0",
+    "description": "This is the description for the PaymentMethodBsc module."
+}
